@@ -1,0 +1,16 @@
+spring:
+  profiles.active: default
+---
+spring:
+  profiles: default
+
+doge:
+  wow: 10
+  such: so
+  very: true
+
+---
+spring:
+   profiles: unit-test
+doge:
+  wow: 4
