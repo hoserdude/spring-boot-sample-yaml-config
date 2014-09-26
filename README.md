@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hoserdude/spring-boot-sample-yaml-config.svg?branch=master)](https://travis-ci.org/hoserdude/spring-boot-sample-yaml-config)
+
 spring-boot-sample-yaml-config
 ==============================
 
