@@ -4,9 +4,9 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.1.1.RELEASE</version>
+		<version>1.1.6.RELEASE</version>
 	</parent>
-    
+
 	<groupId>com.hoserdude</groupId>
 	<artifactId>spring-boot-sample-yaml-config</artifactId>
 	<name>Spring Boot YAML Config Sample</name>
@@ -22,7 +22,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		<dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
